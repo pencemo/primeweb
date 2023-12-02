@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+    <!-- https://swiperjs.com  slide animation cdn-->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!-- https://github.com/michalsnik/aos  scroll animation cdn-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="style.css">
+        
+    <!-- demo fontawoisome -->
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link rel="stylesheet"href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-solid.css">
+    <link  rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-regular.css">
+    <link  rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-light.css" >
+    <!-- demo font -->
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav>
+        <div class="nav-box">
+            <div class="container nav-bar">
+                <a href="" class="logo"><img src="./image/prime_logo.png" alt=""></a>
+                <div class="raw nav-main-box">
+                    <div class="nav-address">
+                        <div class="nav-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <h1 class="nav-icon-title">Our Location</h1>
+                        <p class="nav-icon-par">Mafraq Abu Dhabi</p>
+                    </div>
+                    <div class="dvr"></div>
+                    <div class="nav-address">
+                        <div class="nav-icon"><i class="fa-solid fa-phone-volume"></i></div>
+                        <h1 class="nav-icon-title">24/7 In Touch</h1>
+                        <p class="nav-icon-par">+971 50 70 60 445</p>
+                    </div>
+                    <div class="dvr"></div>
+                    <div class="nav-address">
+                        <div class="nav-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <h1 class="nav-icon-title">Email Address</h1>
+                        <p class="nav-icon-par">sales@primemiddleeast.com</p>
+                    </div>
+                </div>
+                <button id="toggle-btn" class="bar" onclick="move()">
+                    <div class="line-1 line"></div>
+                    <div class="line-2 line"></div>
+                    <div class="line-3 line"></div>
+
+                </button>
+                <!-- <div class="bar">
+                    <div class="line-1 line"></div>
+                    <div class="line-2 line"></div>
+                    <div class="line-3 line"></div>
+                </div> -->
+
+        
+            </div>
+        </div>
+        <div class="container ">
+            <div class="raw nav-links-raw">
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#product">About Us</a></li>
+                        <li><a href="">Service</a></li>
+                        <li><a href="">Gallery</a></li>
+                        <li><a href="">Contact</a></li>
+                        <div class="link-dvr"></div>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    </ul>
+                    <a class="coll-btn  " href="">Get In Touch</a>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+
+<div class="">
+    <div class="land-bg ">
+      <div class="container land-bg-cont">
+      <div class="row land-cunt justify-content-center" >
+        
+        <div class=" col-md-6">
+          <div class="tex-side">
+              <p class="para" data-aos="fade-up" data-aos-delay="0">Your Premier Partner for Quality</p>
+              <h1 class="head" data-aos="fade-up" data-aos-delay="160">Food Products!</h1>
+              <p class="para2" data-aos="fade-up" data-aos-delay="360">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qnetur exercitationem libero rem, aspernatur odit neque veniam ea dignissimos et error!</p>
+              <a class="get-btn" href=""data-aos="fade-up">Get In Touch</a>
+          </div>
+        </div>
+        <div class=" col-md-6" data-aos="fade-up">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide land-imgs"><img src="./image/land-img-1.png"></div>
+              <div class="swiper-slide land-imgs"><img src="./image/land-img-2.png"></div>
+              <div class="swiper-slide land-imgs"><img src="./image/land-img-3.png"></div>
+              <div class="swiper-slide land-imgs"><img src="./image/land-img-2.png"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <!-- <div class="slide swiper-wrapper">
+            <div class="bg bg1 swiper-slide">
+                <div class="slide-text container ">
+                    <p class="para" data-aos="fade-up">Your Premier Partner for Quality</p>
+                    <h1 class="head" data-aos="fade-up">Food Products!</h1>
+                    <a class="get-btn" href=""data-aos="fade-up">Get In Touch</a>
+                </div>
+            </div>
+            <div class="bg bg2 swiper-slide">
+                <div class="slide-text container ">
+                    <p class="para" data-aos="fade-up">Delivering Freshness</p>
+                    <h1 class="head" data-aos="fade-up">Every Day</h1>
+                    <a class="get-btn" href="" data-aos="fade-up">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-button-next swiper-btn"></div>
+        <div class="swiper-button-prev swiper-btn"></div>
+        <div class="swiper-pagination"></div> -->
+    </div>
+</div>
+
+
+<section id="about" class="Story-section product-bg">
+    <div class="container ">
+      <div class="row box-cont justify-content-center" data-aos="fade-up">
+        
+          <div class="col-sm-12 col-md-6" data-aos="fade-up">
+            <div class="box-4">
+                <div class="story-img"><img src="./image/a--_converted_.gif" alt=""></div>
+
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6" data-aos="fade-up">
+            <div class="box-4 story-para-box">
+                <h1 class="story-head">Our Story</h1>
+                <h2><span>Prime Middle East</span> <br> International General Trading</h2>
+                <p>Prime Middle East is a general trading company operating in Mafraq Industry City, Abu Dhabi. We offer a wide range of food products, including nuts and roastery items, protein bars and supplements, soft drinks, energy drinks, chips, and chocolates, among others. We also stock a diverse selection of imported organic products, dairy items, bakery goods, and groceries. Our key customers consist of hotels, restaurants, fast food chains, airlines, and cafes. Our motivated and ambitious sales and logistics team ensures that every client receives prompt, top-quality service at unbeatable prices consistently. </p>
+                <div class="contact-btn"><a href="">Contact Now</a></div>
+              </div>
+          </div>
+          
+      </div>
+    </div>
+  </section>
+
+
+<section id="product" class="section product-bg">
+    <div class="container ">
+        <div class="raw product-head">
+            <h1 >Our Products</h1>
+            <p></p>
+        </div>
+      <div class="row box-cont justify-content-center" data-aos="fade-up">
+        
+          <div class="col-sm-6 col-md-4" data-aos="fade-up">
+            <div class="box-3">
+              <img width="80" height="80" src="https://img.icons8.com/offices/80/ingredients.png" alt="ingredients"/>
+              <h3>GROCERY ITEM</h3>
+              <div class="dvr-line1"></div>
+              <div class="dvr-line2 "></div>
+              <p>Prime Middle East - Your Gateway to Quality Groceries. From pantry staples to gourmet delights, we bring the world's finest to your table</p>
+              <a href="" class="get-btn order-btn">Order Now</a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4" data-aos="fade-up">
+            <div class="box-3">
+                <img width="80" height="80" src="https://img.icons8.com/offices/80/ice-cream-bowl.png" alt="ice-cream-bowl"/>
+              <h3>Diary Products</h3>
+              <div class="dvr-line1"></div>
+              <div class="dvr-line2 "></div>
+              <p>Dairy Delights Await! Prime Middle East brings you the cream of the crop in dairy products. Experience richness, freshness, and quality in every bite</p>
+              <a href="" class="get-btn order-btn">Order Now</a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4" data-aos="fade-up">
+            <div class="box-3">
+                <img width="80" height="80" src="https://img.icons8.com/offices/80/chocolate-bar.png" alt="chocolate-bar"/>
+              <h3>Chocolates</h3>
+              <div class="dvr-line1"></div>
+              <div class="dvr-line2 "></div>
+              <p>Sweet Temptations Await! Prime Middle East brings you a delectable world of chocolates. Indulge in irresistible flavors and elevate your moments with the finest cocoa creations</p>
+              <a href="" class="get-btn order-btn">Order Now</a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4" data-aos="fade-up">
+            <div class="box-3">
+                <img width="80" height="80" src="https://img.icons8.com/offices/80/wine-glass.png" alt="wine-glass"/>
+              <h3>Juices & Beverages</h3>
+              <div class="dvr-line1"></div>
+              <div class="dvr-line2 "></div>
+              <p>Sip, Refresh, Repeat! Dive into a world of flavor with Prime Middle East's Juices & Beverages. From exotic blends to classic favorites, quench your thirst for excellence</p>
+              <a href="" class="get-btn order-btn">Order Now</a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4" data-aos="fade-up">
+            <div class="box-3">
+                <img width="80" height="80" src="https://img.icons8.com/offices/80/honey.png" alt="honey"/>
+              <h3>Oils & Honey</h3>
+              <div class="dvr-line1"></div>
+              <div class="dvr-line2 "></div>
+              <p>Pure Goodness, Bottled for You! Prime Middle East presents a collection of premium Oils & Honey, bringing the essence of nature to your kitchen. Elevate your culinary experience with our carefully selected offerings</p>
+              <a href="" class="get-btn order-btn">Order Now</a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4" data-aos="fade-up">
+            <div class="box-3">
+                <img width="80" height="80" src="https://img.icons8.com/offices/80/cheese.png" alt="cheese"/>
+              <h3>Protein Bars</h3>
+              <div class="dvr-line1"></div>
+              <div class="dvr-line2 "></div>
+              <p>Fuel Your Day with Power-Packed Goodness! Prime Middle East introduces Protein Bars that not only taste great but also give you the energy boost you need. Snack smart, live strong!</p>
+              <a href="" class="get-btn order-btn">Order Now</a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4" data-aos="fade-up">
+            <div class="box-3">
+                <img width="80" height="80" src="https://img.icons8.com/offices/80/plastic.png" alt="plastic"/>
+              <h3>DISPOSIBLE</h3>
+              <div class="dvr-line1"></div>
+              <div class="dvr-line2 "></div>
+              <p>Convenience Meets Quality! Prime Middle East offers a range of disposable products that make life easier without compromising on quality. Discover the perfect blend of convenience and reliability for your everyday needs</p>
+              <a href="" class="get-btn order-btn">Order Now</a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4" data-aos="fade-up">
+            <div class="box-3">
+                <img width="80" height="80" src="https://img.icons8.com/offices/80/nail-polish.png" alt="nail-polish"/>
+              <h3>COSMETICS</h3>
+              <div class="dvr-line1"></div>
+              <div class="dvr-line2 "></div>
+              <p>Beauty Redefined: Prime Middle East brings you a curated selection of exquisite cosmetics. Elevate your glamour quotient with products that blend luxury, quality, and style. Unveil your true radiance with us</p>
+              <a href="" class="get-btn order-btn">Order Now</a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4" data-aos="fade-up">
+            <div class="box-3">
+                <img width="80" height="80" src="https://img.icons8.com/offices/80/alarm-clock.png" alt="alarm-clock"/>
+              <h3>Elecronics</h3>
+              <div class="dvr-line1"></div>
+              <div class="dvr-line2 "></div>
+              <p>Empower Your Lifestyle with Prime Middle East Electronics. From cutting-edge gadgets to smart solutions, we bring innovation to your fingertips. Stay connected, stay ahead</p>
+              <a href="" class="get-btn order-btn">Order Now</a>
+            </div>
+          </div>
+          
+  
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div>
+      <div class="container ">
+        <div class="row justify-content-center" >
+          
+            <div class="col-md-3 footer-box">
+              <h1>Office</h1>
+              <div class="foot-address">
+                <a href="">Jarn Yafour, Mafraq Industrial City, 103 Building,Mafraq Abu Dhabi</a>
+                <a href="">Coll : +97150 70 60 445</a>
+                <a href="">sales@primemiddleeast.com</a>
+              </div>
+            </div>
+            <div class="col-md-3 footer-box">
+              <h1>Quick Links</h1>
+              <div class="foot-links">
+                <a href="">- Home</a>
+                <a href="">- About Us</a>
+                <a href="">- Service</a>
+                <a href="">- Gallery</a>
+                <a href="">- Contact</a>
+              </div>
+            </div>
+            <div class="col-md-6 footer-box">
+              <h1>Get in Tech</h1>
+              <div class="">
+                <div class="foter-input foot-name"><input type="text" placeholder="Your Name"></div>
+                <div class="foter-input foot-mail"><input type="text" placeholder="Email"></div>
+                <div class="foter-input foot-sub"><textarea name="" id="" cols="30" rows="10" placeholder="Subject"></textarea></div>
+              </div>
+            </div>
+            
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+
+
+
+    <!-- slide animation cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script> <!-- jquery.com -->
+
+    <!-- scroll animation cdn -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script src="./script.js"></script>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
