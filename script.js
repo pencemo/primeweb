@@ -37,7 +37,7 @@ $(document).ready(function () {
 
 
    
-// slide *******************
+// slide 1 *******************
 
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
@@ -66,4 +66,56 @@ var swiper = new Swiper(".mySwiper", {
 
 AOS.init({
   duration: 1000
+});
+
+// ***********************************
+
+
+
+// type ******************* https://github.com/mattboldt/typed.js
+var typed = new Typed('#element', {
+  strings: ["Grocery Item", "Diary Products","Chocolates","Juices, Beverages","Oils, Honey"],
+  typeSpeed: 100,
+  backSpeed: 150,
+  loop: true,
+  fadeOut: true,
+});
+
+// ***********************************
+
+
+// slide 2 *******************
+
+var swiper = new Swiper(".mySwiper2", {
+  slidesPerView: 2,
+  spaceBetween: 20,
+  autoplay:{
+    delay:4000,
+    disableOnInteraction: true,
+  },
+  
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 4,
+      spaceBetween: 30,
+    },
+  },
+
 });

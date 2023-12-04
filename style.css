@@ -175,9 +175,13 @@ a{
     margin-top: 80px;
     display: flex;
     align-items: center;
-    background-color: #fff8f8;
+    background-image: url(./image/main-bg.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: #fff8f8;
     clip-path: path("M1920,0v863.47c-139.96-60.73-286.31-102.67-434.27-77.65c-92.09,15.57-178.64,56.65-271.16,69.51c-189.48,26.35-378.06-67.99-568.89-54.62c-116.5,8.16-226.05,55.91-339.28,84.49C205.26,910.72,91.75,918.88,0,873.32V0H1920z");
-  }
+   */
+}
   .land-imgs{
     width: 100%;
   }
@@ -202,33 +206,46 @@ a{
 .para2{
     font-weight: 300;
     font-size: 16px;
-    max-width: 450px;
+    max-width: 500px;
     line-height: 18px;
     font-family: 'Space Grotesk', sans-serif;
+    margin-top: 20px;
 }
-.head{
+.head span{
     font-size: 80px;
     font-weight: 700;
     color: var(--prime-color);
     font-family: 'Space Grotesk', sans-serif;
-    line-height: 65px;
+    line-height: 70px;
 }
 .get-btn{
-    color: #ffffff;
-    text-decoration: none;
-    background: var(--prime-color);
+    color: var(--prime-color);
+    background-color: transparent;
+    border: var(--prime-color) solid 1px;
     width: 150px;
     height: 50px;
     display: grid;
     place-content: center;
     border-radius: 50px;
-    transition: all .2s ease-in-out;
+    margin-top: 15px;
+    font-weight: 500;
+    transition: all 1s ease;
 }
 .get-btn:hover{
     background-color: transparent;
-    color: var(--prime-color);
-    border: var(--prime-color) solid 1px;
-    transform: scale(1.1);
+    color: #fff;
+    background: var(--prime-color);
+}
+
+@keyframes start{
+    from{
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 
@@ -287,7 +304,21 @@ a{
 .order-btn{
     width: 130px;
     height: 40px;
-    color: #ffffff;
+    color: var(--prime-color);
+    text-decoration: none;
+    background-color: transparent;
+    border: var(--prime-color) solid 1px;
+    display: grid;
+    place-content: center;
+    border-radius: 50px;
+    transition: all .5s ease-in-out;
+    margin-top: 5px;
+    font-weight: 500;
+}
+.order-btn:hover{
+    background-color: transparent;
+    color: #fff;
+    background: var(--prime-color);
 }
 
 .dvr-line1,.dvr-line2{
@@ -352,6 +383,79 @@ a{
 } */
 
 
+.hed-lines{
+    margin-top: 5px;
+    width: 80px;
+    height: 1px;
+    background-color: var(--prime-color);
+    position: relative;
+}
+.hed-lines i{
+    position: absolute;
+    top: -8px;
+    left: 40%;
+    background-color: var(--bg-color);
+    font-size: 20px;
+    color: var(--prime-color);
+}
+
+
+/* section 3 */
+.Customer-section{
+    background-color: var(--bg-color);
+    padding: 30px 0;
+}
+.customer-hed{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+.customer-hed h1{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: #d11616;
+    margin: 0;
+}
+.customer-hed p{
+    margin-top: 20px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 19px;
+    max-width: 700px;
+}
+
+.Customers-slide{
+    display: grid;
+    place-content: center;
+    margin: 30px 0;
+}
+.Customers{
+    width: 200px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 25px;
+}
+.Customers i{
+    font-size: 70px;
+    color: #3c60ad;
+}
+.Customers p{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    color: #3c60ad;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+
 
 /* footer */
 footer{
@@ -360,12 +464,15 @@ footer{
     padding: 50px 0;
 }
 .footer-box{
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 .footer-box h1{
     font-size: 20px;
     color: #a1a1a1;
     font-weight: 500;
+}
+.foot-address{
+    width: 100%;
 }
 .foot-address a{
     display: block;
@@ -379,7 +486,7 @@ footer{
     display: block;
     color: #f2f9ff;
     font-weight: 300;
-    width: 150px;
+    width: 200px;
     margin-bottom: 3px;
 }
 .foter-input input,
@@ -403,6 +510,28 @@ footer{
 .foter-input textarea {
     height: 150px;
 }
+.bottum-dvdr{
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+.copyright{
+    width: 100%;
+    margin: 20px 0;
+    display: grid;
+    place-content: center;
+}
+.copyright p{
+    color: #f0f0f0;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 0;
+}
+.copyright p span{
+    font-weight: 500;
+    color: #fff;
+}
+
 
 @media (max-width: 992px) {
 
