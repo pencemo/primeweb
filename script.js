@@ -87,7 +87,7 @@ var typed = new Typed('#element', {
 // slide 2 *******************
 
 var swiper = new Swiper(".mySwiper2", {
-  slidesPerView: 2,
+  slidesPerView: 1,
   spaceBetween: 20,
   autoplay:{
     delay:4000,
