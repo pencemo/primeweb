@@ -178,6 +178,7 @@ a{
     background-image: url(./image/main-bg.png) ;
     background-size: cover;
     background-repeat: no-repeat;
+    
     /* background-color: #fff8f8;
     clip-path: path("M1920,0v863.47c-139.96-60.73-286.31-102.67-434.27-77.65c-92.09,15.57-178.64,56.65-271.16,69.51c-189.48,26.35-378.06-67.99-568.89-54.62c-116.5,8.16-226.05,55.91-339.28,84.49C205.26,910.72,91.75,918.88,0,873.32V0H1920z");
    */
@@ -206,7 +207,7 @@ a{
 .para2{
     font-weight: 300;
     font-size: 16px;
-    max-width: 500px;
+    max-width: 400px;
     line-height: 18px;
     font-family: 'Space Grotesk', sans-serif;
     margin-top: 20px;
@@ -237,16 +238,7 @@ a{
     background: var(--prime-color);
 }
 
-@keyframes start{
-    from{
-        transform: translateX(-50px);
-        opacity: 0;
-    }
-    to{
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
+
 
 
 /* section 1  */
@@ -632,13 +624,15 @@ footer{
     }
 
     .para{
-        font-size: 20px;
+        font-size: 25px;
+        font-weight: 500;
         margin: 0;
+        margin-bottom: 5px;
     }
     .head span{
-        font-size: 60px;
+        font-size: 55px;
         font-weight: 600;
-        line-height: 50px;
+        line-height: 40px;
     }
     
   }
@@ -654,6 +648,7 @@ footer{
         flex-direction: column;
         align-items: center;
         margin-bottom: 10px;
+        text-align: center;
     }
     .customer-hed h1{
         font-family: 'Space Grotesk', sans-serif;
@@ -674,10 +669,11 @@ footer{
         font-size: 18px;
         text-align: center;
     }
-    .head span{
+    #element{
         font-size: 45px;
-        font-weight: 700;
-        text-align: center;
+        font-weight: 600;
+        line-height: 20px;
     }
+    
 
   }

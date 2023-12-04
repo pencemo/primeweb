@@ -74,7 +74,7 @@ AOS.init({
 
 // type ******************* https://github.com/mattboldt/typed.js
 var typed = new Typed('#element', {
-  strings: ["Grocery Item", "Diary Products","Chocolates","Juices, Beverages","Oils, Honey"],
+  strings: ["Grocery Item", "Diary<br> Products","Chocolates","Juices<br>Beverages","Oils<br>Honey"],
   typeSpeed: 100,
   backSpeed: 150,
   loop: true,
