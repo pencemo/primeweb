@@ -25,7 +25,7 @@ $(document).ready(function () {
 
 
     // toggle anim ***
-    $("#toggle-btn").click(function () {
+    $(".bar").click(function () {
         $(".nav-links").toggleClass("move");
         $(".line-1").toggleClass("iconanim1");
         $(".line-2").toggleClass("iconanim2");
