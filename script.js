@@ -10,6 +10,7 @@
 
 
 
+
 // jaquray **************************
 
 $(document).ready(function () {
@@ -31,9 +32,17 @@ $(document).ready(function () {
         $(".line-2").toggleClass("iconanim2");
         $(".line-3").toggleClass("iconanim3");
     });
+    $(".nav-links ul li").click(function () {
+        $(".nav-links").toggleClass("move");
+        $(".line-1").toggleClass("iconanim1");
+        $(".line-2").toggleClass("iconanim2");
+        $(".line-3").toggleClass("iconanim3");
+    });
 });
 
 // ***********************************
+
+
 
 
    

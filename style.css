@@ -3,6 +3,9 @@
     --prime-color: #ec1414;
     --bg-color: #f2f9ff;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 *{
     font-family: 'Poppins', sans-serif;
@@ -207,7 +210,7 @@ a{
 .para2{
     font-weight: 300;
     font-size: 16px;
-    max-width: 400px;
+    max-width: 500px;
     line-height: 18px;
     font-family: 'Space Grotesk', sans-serif;
     margin-top: 20px;
@@ -529,8 +532,13 @@ footer{
     font-size: 13px;
     font-weight: 300;
     padding: 0;
+    text-align: center;
 }
 .copyright p span{
+    font-weight: 500;
+    color: #fff;
+}
+.copyright p a{
     font-weight: 500;
     color: #fff;
 }

@@ -101,6 +101,9 @@
 .location-map{
     width: 100%;
     margin-bottom: 100px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: solid 1px #131313;
 }
 .location-map iframe{
     width: 100%;
@@ -159,14 +162,14 @@
                 <div class="nav-links">
                     <ul>
                         <li><a href="./index.html">Home</a></li>
-                        <li><a href="#product">About Us</a></li>
-                        <li><a href="">Service</a></li>
+                        <li><a href="./aboutus.html">About Us</a></li>
+                        <li><a href="./Products.html">Products</a></li>
                         <li><a href="">Gallery</a></li>
-                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="#">Contact</a></li>
                         <div class="link-dvr"></div>
-                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://wa.me/+971507060445"><i class="fa-brands fa-whatsapp"></i></a>
                     </ul>
-                    <a class="coll-btn  " href="">Get In Touch</a>
+                    <a class="coll-btn  " href="https://wa.me/+971507060445">Get In Touch</a>
                     
                 </div>
             </div>
@@ -182,8 +185,7 @@
             <div class="heading text-center">
                 <h2>Contact
                     <span> Us </span></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    <br>incididunt ut labore et dolore magna aliqua.</p>
+                <p>Get in touch with Prime Middle East for unparalleled service and premium products. Your satisfaction is our priority. <br>Reach out to us today and let's elevate your experience together</p>
             </div>
             <div class="row">
                 <div class="col-md-5 infos">
@@ -252,18 +254,18 @@
                   <h1>Office</h1>
                   <div class="foot-address">
                     <a href="">Jarn Yafour, Mafraq Industrial City, 103 Building, Mafraq Abu Dhabi</a>
-                    <a href="">Call : +97150 70 60 445</a>
-                    <a href="">sales@primemiddleeast.com</a>
+                    <a href="tel:+971507060445">Call : +97150 70 60 445</a>
+                    <a href="mailto:sales@primemiddleeast.com">sales@primemiddleeast.com</a>
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-4 footer-box">
                   <h1>Quick Links</h1>
                   <div class="foot-links">
-                    <a href="">- Go to Home</a>
-                    <a href="">- About Us</a>
-                    <a href="">- Our Products</a>
-                    <a href="">- Provided  Services</a>
-                    <a href="">- Contact Info</a>
+                    <a href="./index.html">- Go to Home</a>
+                    <a href="./aboutus.html">- About Us</a>
+                    <a href="./Products.html">- Our Products</a>
+                    <a href="">- Gallery</a>
+                    <a href="#">- Contact Info</a>
                   </div>
                 </div>
                 <div class="col-lg-6 col-md-12 footer-box">
@@ -278,35 +280,15 @@
             </div>
             <div class="bottum-dvdr"></div>
             <div class="row copyright" >
-              <p>Copyright © 2023 <span>Prime Middle East</span>, All rights reserved</p>
+                <p>Copyright © 2023 <span>Prime Middle East</span>, All rights reserved <br> Powered by <a href="https://neptunemark.com/">NeptuneMark</a></p>
           </div>
           </div>
         </div>
       </footer>
 
       <script src="https://code.jquery.com/jquery-3.7.1.js"></script> <!-- jquery.com -->
-      <script>
-        $(document).ready(function () {
-
-        // scroll ***
-        $(window).on('scroll', function(){
-            if ($(window).scrollTop()) {
-            $(".nav-box").addClass('scroll');
-            }else{
-            $(".nav-box").removeClass('scroll');
-            }
-        });
-
-
-        // toggle anim ***
-        $(".bar").click(function () {
-            $(".nav-links").toggleClass("move");
-            $(".line-1").toggleClass("iconanim1");
-            $(".line-2").toggleClass("iconanim2");
-            $(".line-3").toggleClass("iconanim3");
-        });
-        });
-      </script>
+      
+      <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
