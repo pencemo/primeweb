@@ -328,6 +328,69 @@ a{
 }
 
 
+/* section  */
+.icon-3-sect{
+    padding: 30px;
+}
+.icon-3-box{
+    margin-top: 20px;
+}
+.box-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+.box-container h1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.box-container p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.icon-round{
+    width: 100px;
+    height: 100px;
+    background-color: var(--prime-color);
+    display: grid;
+    place-content: center;
+    border-radius: 62% 38% 32% 68% / 61% 62% 38% 39%;
+    position: relative;
+    margin-bottom: 15px;
+}
+.icon-round::after{
+    content: "";
+    width: 100px;
+    height: 100px;
+    border-radius: 34% 66% 48% 52% / 38% 42% 58% 62%;
+    background-color: var(--prime-color);
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    /* animation: rotat linear infinite 5s; */
+    transform: rotate(150deg);
+}
+@keyframes rotat{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.icon-round i{
+    font-size: 50px;
+    color: #fff;
+}
+
+
+
 /* section 2 */
 
 .box-cont{
