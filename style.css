@@ -372,7 +372,7 @@ a{
     top: 0;
     left: 0;
     z-index: -2;
-    /* animation: rotat linear infinite 5s; */
+    animation: rotat linear infinite 10s;
     transform: rotate(150deg);
 }
 @keyframes rotat{
